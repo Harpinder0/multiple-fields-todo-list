@@ -1,0 +1,13 @@
+.ant-form-item-label > label {
+  width: 96px !important;
+}
+
+.List {
+  text-align: center;
+}
+
+
+.modelBox {
+  text-align: center;
+  margin: 15px 0;
+}
