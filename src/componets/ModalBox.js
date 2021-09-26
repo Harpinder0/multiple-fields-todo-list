@@ -25,7 +25,6 @@ const Modalbox = () => {
     form.validateFields();
     const formValues = form.getFieldsValue();
     if (editId) {
-      console.log(editId,"editId")
       formValues.id = editId;
       if(formValues.fname && formValues.lname && formValues.number) {
         dispatch(editUser(formValues));
@@ -58,7 +57,7 @@ const Modalbox = () => {
         onOk={handleOk}
         onCancel={handleCancel}
       >
-        <Form form={form} >
+        <Form form={form} autoComplete="off">
           <Form.Item
             label="First Name"
             name="fname"

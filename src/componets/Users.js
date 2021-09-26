@@ -7,7 +7,6 @@ import { Popconfirm, Table, Space, Button } from "antd";
 
 const Users = ({ form, setIsModalVisible, setEditId }) => {
   const editDataOfRow = (data) => {
-    console.log(data,"data")
     setEditId(data.id);
     form.setFieldsValue(data);
     setIsModalVisible(true);
