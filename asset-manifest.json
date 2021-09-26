@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/multiple-fields-todo-list/static/css/main.4bb53f6b.chunk.css",
+    "main.js": "/multiple-fields-todo-list/static/js/main.fcbd824c.chunk.js",
+    "main.js.map": "/multiple-fields-todo-list/static/js/main.fcbd824c.chunk.js.map",
+    "runtime-main.js": "/multiple-fields-todo-list/static/js/runtime-main.97fd6d01.js",
+    "runtime-main.js.map": "/multiple-fields-todo-list/static/js/runtime-main.97fd6d01.js.map",
+    "static/css/2.786ae0dd.chunk.css": "/multiple-fields-todo-list/static/css/2.786ae0dd.chunk.css",
+    "static/js/2.19914fe2.chunk.js": "/multiple-fields-todo-list/static/js/2.19914fe2.chunk.js",
+    "static/js/2.19914fe2.chunk.js.map": "/multiple-fields-todo-list/static/js/2.19914fe2.chunk.js.map",
+    "index.html": "/multiple-fields-todo-list/index.html",
+    "static/css/2.786ae0dd.chunk.css.map": "/multiple-fields-todo-list/static/css/2.786ae0dd.chunk.css.map",
+    "static/css/main.4bb53f6b.chunk.css.map": "/multiple-fields-todo-list/static/css/main.4bb53f6b.chunk.css.map",
+    "static/js/2.19914fe2.chunk.js.LICENSE.txt": "/multiple-fields-todo-list/static/js/2.19914fe2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97fd6d01.js",
+    "static/css/2.786ae0dd.chunk.css",
+    "static/js/2.19914fe2.chunk.js",
+    "static/css/main.4bb53f6b.chunk.css",
+    "static/js/main.fcbd824c.chunk.js"
+  ]
+}
