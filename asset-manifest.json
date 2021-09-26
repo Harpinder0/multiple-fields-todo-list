@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/multiple-fields-todo-list/static/css/main.4bb53f6b.chunk.css",
-    "main.js": "/multiple-fields-todo-list/static/js/main.fcbd824c.chunk.js",
-    "main.js.map": "/multiple-fields-todo-list/static/js/main.fcbd824c.chunk.js.map",
+    "main.js": "/multiple-fields-todo-list/static/js/main.cab85620.chunk.js",
+    "main.js.map": "/multiple-fields-todo-list/static/js/main.cab85620.chunk.js.map",
     "runtime-main.js": "/multiple-fields-todo-list/static/js/runtime-main.97fd6d01.js",
     "runtime-main.js.map": "/multiple-fields-todo-list/static/js/runtime-main.97fd6d01.js.map",
     "static/css/2.786ae0dd.chunk.css": "/multiple-fields-todo-list/static/css/2.786ae0dd.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.786ae0dd.chunk.css",
     "static/js/2.19914fe2.chunk.js",
     "static/css/main.4bb53f6b.chunk.css",
-    "static/js/main.fcbd824c.chunk.js"
+    "static/js/main.cab85620.chunk.js"
   ]
 }
