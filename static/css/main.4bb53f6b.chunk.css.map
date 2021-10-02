@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,2BACE,oBACF,CAOA,gBAJE,iBAOF,CAHA,UAEE,aACF","file":"main.4bb53f6b.chunk.css","sourcesContent":[".ant-form-item-label > label {\n  width: 96px !important;\n}\n\n.List {\n  text-align: center;\n}\n\n\n.modelBox {\n  text-align: center;\n  margin: 15px 0;\n}"]}
