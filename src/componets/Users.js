@@ -5,8 +5,9 @@ import { deleteUser } from "../store/actions/action";
 // antd
 import { Popconfirm, Table, Space, Button } from "antd";
 
-const Users = ({ form, setIsModalVisible, setEditId }) => {
+const Users = ({ form, setIsModalVisible, setEditId, setTitle }) => {
   const editDataOfRow = (data) => {
+    setTitle("Edit User");
     setEditId(data.id);
     form.setFieldsValue(data);
     setIsModalVisible(true);

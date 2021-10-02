@@ -10,12 +10,13 @@ import Users from "./Users";
 
 const Modalbox = () => {
   const [form] = Form.useForm();
-
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [editId, setEditId] = useState();
+  const [title, setTitle] = useState();
   const dispatch = useDispatch();
 
   const showModal = () => {
+    setTitle("Add User");
     setEditId("");
     form.resetFields();
     setIsModalVisible(true);
@@ -26,12 +27,10 @@ const Modalbox = () => {
     const formValues = form.getFieldsValue();
     if (editId) {
       formValues.id = editId;
-      if(formValues.fname && formValues.lname && formValues.number) {
+      if (formValues.fname && formValues.lname && formValues.number) {
         dispatch(editUser(formValues));
         setIsModalVisible(false);
       }
-      
-      
     } else {
       if (formValues.fname && formValues.lname && formValues.number) {
         dispatch(addUser(formValues));
@@ -46,13 +45,13 @@ const Modalbox = () => {
 
   return (
     <>
-    <div className="modelBox">
-      <Button type="primary" onClick={showModal} >
-        Add User
-      </Button>
+      <div className="modelBox">
+        <Button type="primary" onClick={showModal}>
+          Add User
+        </Button>
       </div>
       <Modal
-        title="Basic Modal"
+        title={title}
         visible={isModalVisible}
         onOk={handleOk}
         onCancel={handleCancel}
@@ -87,6 +86,7 @@ const Modalbox = () => {
         setEditId={setEditId}
         setIsModalVisible={setIsModalVisible}
         form={form}
+        setTitle={setTitle}
       />
     </>
   );
