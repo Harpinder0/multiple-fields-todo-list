@@ -1,7 +1,6 @@
 # Getting Started with Create React App
 
 Demo Link : [Click Here](https://harpinder0.github.io/multiple-fields-todo-list).
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
